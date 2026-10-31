@@ -1,362 +1,375 @@
+ <div align="center">
+
+<img src="https://img.shields.io/badge/SMARTDINE-AI-FF6B00?style=for-the-badge&labelColor=080B10" alt="SmartDine AI"/>
+
 # 🍽️ SmartDine AI
-### Intelligent Restaurant Management & Customer Experience Platform
 
-<p align="center">
-  <strong>Transforming Restaurant Operations with AI, Automation & Smart Digital Experiences.</strong>
+### AI-Powered Restaurant Management Platform
+
+**Good Food. Great Experience. Smarter Restaurant Operations.**
+
+A modern full-stack restaurant management platform connecting customers, restaurant teams, kitchen operations, and AI-powered business intelligence through one unified digital ecosystem.
+
+<p>
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-4-000000?style=flat-square&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google_Gemini-AI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
 </p>
 
-<p align="center">
-  A unified restaurant ecosystem connecting customers, restaurant teams, kitchen operations, delivery workflows, and AI-powered business intelligence.
+<p>
+  <a href="#-features">Features</a> •
+  <a href="#-technology-stack">Tech Stack</a> •
+  <a href="#-architecture">Architecture</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-roadmap">Roadmap</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19"/>
-  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Express"/>
-  <img src="https://img.shields.io/badge/AI-Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
-</p>
+</div>
 
 ---
 
-## 📌 Table of Contents
+## 🖥️ Platform Preview
 
-- [Overview](#-overview)
-- [Project Vision](#-project-vision)
-- [Key Features](#-key-features)
-- [Customer Portal](#-customer-portal)
-- [Restaurant Management Portal](#-restaurant-management-portal)
-- [AI-Powered Features](#-ai-powered-features)
-- [Technology Stack](#-technology-stack)
-- [System Architecture](#-system-architecture)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Environment Configuration](#-environment-configuration)
-- [Running the Application](#-running-the-application)
-- [Production Build](#-production-build)
-- [API Documentation](#-api-documentation)
-- [Application Workflow](#-application-workflow)
-- [Data Management](#-data-management)
-- [Security Considerations](#-security-considerations)
-- [Future Roadmap](#-future-roadmap)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
+<div align="center">
+
+<!-- Add your customer portal screenshot to docs/screenshots/ -->
+
+<img src="docs/screenshots/customer-portal.png" width="100%" alt="SmartDine AI Customer Portal"/>
+
+**Customer Portal — Premium Dark UI with Orange Accents**
+
+</div>
+
+> To display your screenshot, create `docs/screenshots/` in your repository and add your actual customer portal image as `customer-portal.png`.
 
 ---
 
-## 🚀 Overview
+## 🧡 About the Project
 
-**SmartDine AI** is an intelligent, modern restaurant management platform designed to simplify restaurant operations and enhance customer experiences through artificial intelligence, automation, and centralized digital management.
+**SmartDine AI** is an intelligent restaurant management platform designed to transform traditional restaurant operations into a connected digital experience.
 
-The platform brings together customer-facing food services and restaurant operational workflows into one unified application.
+The platform brings customer-facing food services and restaurant operational workflows together through a unified application.
 
-Customers can explore restaurants, browse menus, place orders, reserve tables, manage their preferences, and interact with an AI-powered assistant.
+Customers can discover restaurants, explore digital menus, place orders, reserve tables, manage their profiles, and interact with an AI assistant.
 
-Restaurant teams can manage orders, reservations, kitchen activities, menus, inventory, employees, delivery operations, and business analytics through a centralized management interface.
+Restaurant teams can manage orders, reservations, kitchen operations, menus, inventory, staff, delivery workflows, and business reports through a centralized management dashboard.
 
-SmartDine AI aims to bridge the gap between traditional restaurant operations and intelligent digital restaurant management.
+By integrating artificial intelligence and automation capabilities, SmartDine AI aims to improve restaurant efficiency, simplify daily operations, and create better customer experiences.
 
-### 🎯 Project Objectives
+### 🎯 Project Vision
 
-- Digitize restaurant operations.
-- Improve customer ordering experiences.
-- Simplify table reservation management.
-- Centralize kitchen and waiter workflows.
-- Improve inventory and staff management.
-- Introduce AI-powered restaurant assistance.
-- Generate intelligent business insights.
-- Enable automated customer communication.
-- Build a scalable foundation for multi-portal restaurant management.
-
----
-
-## 💡 Project Vision
-
-SmartDine AI is designed around three major pillars:
-
-| Pillar | Purpose |
+| Pillar | Description |
 |---|---|
-| Customer Experience | Simplify food discovery, ordering, reservations, and customer engagement. |
-| Restaurant Operations | Centralize restaurant workflows, staff, kitchen, inventory, and delivery management. |
-| Artificial Intelligence | Introduce intelligent assistance, recommendations, feedback analysis, and business insights. |
+| 👤 Customer Experience | Simplified restaurant discovery, online ordering, reservations and engagement |
+| 🏢 Restaurant Management | Centralized management of orders, menus, kitchen, inventory and staff |
+| 🤖 Artificial Intelligence | Intelligent assistance, feedback analysis and business insights |
+| 📊 Business Intelligence | Operational reporting and restaurant performance visualization |
+| ⚡ Automation | Future integration with WhatsApp, Pabbly and email notifications |
 
 ---
 
-# ✨ Key Features
+## 📊 Platform Overview
 
-## 👤 1. Customer Portal
+<div align="center">
 
-A modern customer-facing interface designed to provide a seamless digital dining experience.
+| 🧑‍💻 Customer Portal | 🏢 Restaurant Portal |
+|:---:|:---:|
+| Food Discovery & Ordering | Restaurant Operations |
+| Table Reservations | Kitchen Management |
+| Customer Engagement | Inventory & Staff |
+| Loyalty & Rewards | Reports & Analytics |
 
-### Restaurant Discovery
-- Explore restaurant experiences.
-- Browse digital restaurant menus.
-- Discover food categories and dishes.
-- View restaurant and menu information.
-- Search for food and restaurant options.
+| 🤖 AI-Powered | ⚡ Full Stack |
+|:---:|:---:|
+| Google Gemini Integration | React + Express |
+| AI Assistant | TypeScript |
+| AI Business Reports | Modern Web Architecture |
 
-### Online Food Ordering
-- Browse available menu items.
+</div>
+
+---
+
+# ✨ Features
+
+## 👤 01. Customer Portal
+
+A modern food discovery and ordering experience designed around customer convenience.
+
+<details open>
+<summary><strong>🍽️ Restaurant Discovery & Digital Menu</strong></summary>
+
+- Explore restaurants.
+- Browse restaurant menus.
+- Discover food categories.
+- Search restaurants and dishes.
+- View menu items and food information.
+- Explore recommended food items.
+- View restaurant information.
+
+</details>
+
+<details>
+<summary><strong>🛒 Online Food Ordering</strong></summary>
+
+- Create food orders.
 - Add food items to orders.
 - Manage order quantities.
-- Create food orders.
-- Track order progress.
-- Select dine-in, takeaway, or delivery workflows.
-
-### Table Reservation
-- Create table reservations.
-- View reservation information.
-- Manage existing reservations.
-- Update reservation details.
-- Cancel reservations.
-
-### Customer Engagement
-- Manage customer profile.
-- Save favorite restaurants and dishes.
-- Access loyalty rewards.
-- Manage saved addresses.
-- View wallet interface.
-- Access customer support.
-- Submit feedback.
-- Manage personal preferences and settings.
-
-### Order Experience
 - View order information.
-- Monitor order status.
-- Access order-related information.
-- Explore previous ordering workflows.
+- Track order progress.
+- Select dine-in, takeaway or delivery workflows.
+
+</details>
+
+<details>
+<summary><strong>📅 Table Reservations</strong></summary>
+
+- Create table reservations.
+- View reservation details.
+- Update reservation information.
+- Cancel reservations.
+- Manage booking workflows.
+
+</details>
+
+<details>
+<summary><strong>❤️ Customer Engagement</strong></summary>
+
+- Favorite restaurants.
+- Favorite dishes.
+- Loyalty rewards.
+- Customer wallet interface.
+- Saved addresses.
+- Customer support.
+- Feedback submission.
+- Personal preferences and settings.
+
+</details>
 
 ---
 
-## 🏢 2. Restaurant Management Portal
+## 🏢 02. Restaurant Management Portal
 
-A centralized operational dashboard designed to help restaurant teams manage everyday business activities.
+A centralized restaurant operations dashboard for managing daily business activities.
 
 ### 📊 Restaurant Dashboard
+
 - Restaurant activity overview.
-- Operational metrics.
 - Order statistics.
+- Operational metrics.
 - Reservation information.
-- Business performance visualization.
-- Operational insights.
+- Business performance charts.
+- Restaurant activity monitoring.
 
 ### 🛒 Order Management
+
 - View incoming orders.
-- Manage order information.
-- Update order statuses.
-- Delete or modify orders.
+- Create and manage orders.
+- Update order status.
+- Modify order information.
+- Delete orders.
 - Assign delivery riders.
-- Monitor order progress.
 
 ### 🍳 Kitchen Management
-- View queued orders.
-- Manage cooking workflows.
-- Update food preparation status.
-- Mark orders as completed.
-- Coordinate kitchen activities.
+
+- Kitchen order queue.
+- Cooking workflow.
+- Order preparation tracking.
+- Completed order management.
+- Kitchen activity coordination.
 
 ### 🧑‍🍳 Waiter Management
-- View waiter notifications.
-- Manage table-service requests.
-- Mark service notifications as completed.
-- Coordinate restaurant service activities.
+
+- Waiter notifications.
+- Table service requests.
+- Service completion updates.
+- Restaurant service coordination.
 
 ### 🍽️ Menu Management
-- Create menu items.
+
+- Add menu items.
 - Update menu information.
 - Delete menu items.
-- Organize restaurant food offerings.
-- Maintain menu data.
+- Manage restaurant food offerings.
 
 ### 📅 Reservation Management
-- View restaurant reservations.
+
+- View reservations.
 - Create reservations.
-- Update booking details.
+- Update booking information.
 - Cancel reservations.
-- Coordinate table booking activities.
+- Manage reservation workflows.
 
 ### 📦 Inventory Management
-- Manage inventory items.
-- Update stock information.
-- Monitor stock availability.
-- Identify low-stock items.
-- Track inventory waste.
-- Access recipe and inventory assistance.
+
+- Inventory item management.
+- Stock updates.
+- Stock availability.
+- Low-stock monitoring.
+- Waste tracking.
+- AI-assisted recipe and inventory support.
 
 ### 👥 Staff Management
+
 - Add employees.
-- Update employee information.
-- Remove staff members.
-- Manage attendance.
-- Maintain shift information.
-- Access staff performance information.
+- Update staff details.
+- Remove employees.
+- Attendance management.
+- Shift information.
+- Staff performance information.
 
 ### 🚚 Delivery Management
-- View delivery-related orders.
-- Assign delivery riders.
-- Manage delivery workflows.
-- Monitor delivery order statuses.
+
+- Delivery order management.
+- Rider assignment.
+- Delivery workflow management.
+- Order status monitoring.
 
 ### 📈 Reports & Analytics
-- Access restaurant operational reports.
-- Visualize business metrics.
-- Analyze restaurant activities.
-- Generate AI-assisted business reports.
+
+- Restaurant activity reports.
+- Business metrics.
+- Operational analytics.
+- AI-generated business reports.
 
 ### ⚙️ Restaurant Settings
-- Access restaurant configuration.
-- Manage system preferences.
-- Configure restaurant-related settings.
+
+- Restaurant configuration.
+- System preferences.
+- Restaurant-related settings.
 
 ---
 
-## 🤖 3. AI-Powered Features
+## 🤖 03. AI-Powered Intelligence
 
-SmartDine AI integrates Google's Gemini API to provide intelligent assistance within restaurant workflows.
+SmartDine AI integrates Google's Gemini API to introduce intelligent capabilities into restaurant workflows.
 
-### AI Restaurant Assistant
-- Ask restaurant-related questions.
-- Receive AI-generated responses.
-- Get operational assistance.
-- Explore restaurant-related information.
+| AI Feature | Description |
+|---|---|
+| AI Restaurant Assistant | Answers restaurant-related questions |
+| AI Feedback Assistance | AI-assisted customer feedback processing |
+| AI Business Reports | Generates reports using operational data |
+| AI Recipe Assistance | Provides recipe-related suggestions |
+| Inventory Assistance | Supports inventory-related queries |
 
-### AI Feedback Assistance
-- Process customer feedback.
-- Request AI-assisted sentiment analysis.
-- Generate feedback-related responses.
-
-### AI Business Reports
-- Generate business reports using operational data.
-- Summarize restaurant activities.
-- Obtain AI-generated business insights.
-
-### AI Recipe & Inventory Assistance
-- Request recipe assistance.
-- Get inventory-related suggestions.
-- Support restaurant inventory workflows.
-
-**AI Technology:** Google Gemini API using the official `@google/genai` SDK.
+**AI Integration:** Google Gemini API using the official `@google/genai` SDK.
 
 ---
 
-## 📲 4. Automation & Customer Communication
+## 📲 04. Automation & Notifications
 
-The platform is designed to support automated communication workflows.
+Planned automation capabilities:
 
-Planned integrations:
-
-- Pabbly Connect.
+- Pabbly Connect integration.
 - WhatsApp Cloud API.
-- Order confirmation notifications.
-- Reservation confirmation messages.
-- Order status updates.
-- Promotional messages.
+- Automated order confirmations.
+- Reservation reminders.
+- Order status notifications.
+- Promotional campaigns.
 - Birthday greetings.
-- Customer feedback requests.
+- Feedback requests.
 - Email notifications.
 
-*These integrations are planned extensions and should not be considered fully operational until their API connections and workflows are implemented and tested.*
+*These are planned integrations and require implementation and testing before they can be considered operational.*
 
 ---
 
 # 🛠️ Technology Stack
 
-SmartDine AI currently uses the following technologies.
+<div align="center">
+
+### Frontend Technologies
+
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind" alt="Frontend technologies"/>
+
+### Backend Technologies
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,ts" alt="Backend technologies"/>
+
+### AI & Development Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,npm" alt="Development tools"/>
+
+</div>
 
 | Layer | Technology | Purpose |
 |---|---|---|
 | Frontend | React 19 | User interface |
 | Language | TypeScript | Type-safe development |
-| Build Tool | Vite | Development and production builds |
-| Styling | Tailwind CSS 4 | Responsive UI styling |
+| Build Tool | Vite | Fast development and builds |
+| Styling | Tailwind CSS 4 | Responsive UI design |
 | Icons | Lucide React | Interface icons |
 | Animations | Motion | UI animations |
-| Charts | Recharts | Analytics visualizations |
-| Backend | Express 4 | API and server management |
-| Backend Language | TypeScript | Server-side development |
-| Runtime | Node.js | JavaScript execution |
+| Charts | Recharts | Data visualization |
+| Backend | Express 4 | REST API and server |
+| Runtime | Node.js | Server execution |
 | Server Runner | tsx | TypeScript execution |
-| AI Integration | Google Gemini | AI-powered functionality |
-| AI SDK | @google/genai | Gemini API integration |
-| Bundler | esbuild | Backend production bundling |
-
-### Development Tools
-
-- Visual Studio Code
-- Git
-- GitHub
-- npm
-- Postman / Thunder Client
+| AI | Google Gemini | AI-powered features |
+| AI SDK | @google/genai | Gemini integration |
+| Bundler | esbuild | Production server bundling |
 
 ---
 
-# 🏗️ System Architecture
+# 🏗️ Architecture
 
-SmartDine AI currently follows a unified full-stack architecture where the Express server hosts the backend API and serves the Vite-powered frontend.
+SmartDine AI currently uses a unified full-stack architecture.
 
-```text
-                 SMARTDINE AI
-                       |
-             React + TypeScript
-                       |
-              Customer Interface
-                       |
-          Restaurant Operations UI
-                       |
-                Express Server
-                       |
-                  REST APIs
-                       |
-             Application State
-                       |
-              In-Memory Storage
-                       |
-             Google Gemini API
-                       |
-              AI Functionality
+<div align="center">
+
+```mermaid
+flowchart TD
+    A["SmartDine AI"] --> B["React + TypeScript Frontend"]
+
+    B --> C["Customer Portal"]
+    B --> D["Restaurant Management Portal"]
+
+    C --> E["Express Server"]
+    D --> E
+
+    E --> F["REST API"]
+    F --> G["In-Memory Application State"]
+    F --> H["Google Gemini API"]
+
+    H --> I["AI Assistant"]
+    H --> J["AI Feedback Assistance"]
+    H --> K["AI Business Reports"]
 ```
 
-### Architecture Components
+</div>
 
-**Frontend Layer**
+### Architecture Layers
+
+**1. Presentation Layer**
 - React components.
 - Customer interface.
 - Restaurant management interface.
 - Dashboard visualizations.
-- User interaction and application state.
+- User interactions.
 
-**Backend Layer**
+**2. Application Layer**
 - Express server.
 - REST API endpoints.
-- Order and reservation operations.
-- Menu and inventory management.
-- Staff and operational workflows.
-- AI service integration.
+- Order management.
+- Reservation operations.
+- Menu and inventory workflows.
+- Staff management.
 
-**AI Layer**
-- Gemini API integration.
-- Restaurant assistant.
+**3. AI Layer**
+- Google Gemini API.
+- AI restaurant assistant.
 - Feedback assistance.
 - Business report generation.
 - Recipe and inventory assistance.
 
-### Planned Architecture Evolution
-
-The future architecture is intended to introduce:
-
-- PostgreSQL database.
-- Persistent data storage.
-- Authentication and authorization.
-- Role-based access control.
-- Dedicated AI services.
-- WhatsApp automation.
-- Production deployment infrastructure.
+**4. Data Layer**
+- Current implementation uses in-memory application state.
+- PostgreSQL persistence is planned for a future development phase.
 
 ---
 
-# 📁 Project Structure
+# 📂 Project Structure
 
 ```text
 SmartDine-AI/
@@ -364,8 +377,11 @@ SmartDine-AI/
 ├── assets/
 │   └── Static images and media
 │
+├── docs/
+│   └── screenshots/
+│       └── customer-portal.png
+│
 ├── src/
-│   │
 │   ├── components/
 │   │   └── Reusable UI components
 │   │
@@ -373,85 +389,63 @@ SmartDine-AI/
 │   │   └── Main application interface
 │   │
 │   ├── main.tsx
-│   │   └── React application entry point
+│   │   └── React entry point
 │   │
 │   ├── index.css
-│   │   └── Global styling and Tailwind
+│   │   └── Global styling
 │   │
 │   ├── menu_data.ts
-│   │   └── Initial restaurant menu data
+│   │   └── Initial menu data
 │   │
 │   └── types.ts
 │       └── Shared TypeScript types
 │
 ├── .env.example
-│   └── Environment variable template
-│
 ├── .gitignore
-│
 ├── index.html
-│
 ├── package.json
-│
 ├── package-lock.json
-│
 ├── server.ts
-│   └── Express backend and Vite integration
-│
 ├── tsconfig.json
-│
 ├── vite.config.ts
-│
 └── README.md
 ```
 
 ---
 
-# ⚙️ Getting Started
+# ⚙️ Installation
 
-Follow these instructions to run SmartDine AI locally.
+Follow these steps to run SmartDine AI locally.
 
-## 1. Prerequisites
+### Prerequisites
 
-Install the following software:
-
-| Software | Minimum Requirement |
+| Requirement | Version |
 |---|---|
 | Node.js | 18 or newer |
-| npm | Included with Node.js |
-| Git | Latest stable version |
-| VS Code | Latest version |
+| npm | Compatible with installed Node.js |
+| Git | Latest stable |
+| VS Code | Recommended |
 | Google Gemini API Key | Required for AI features |
 
-Verify your installation:
-
-```bash
-node --version
-npm --version
-git --version
-```
-
-## 2. Clone the Repository
+### 01. Clone Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/SmartDine-AI.git
 ```
 
-Navigate to the project:
-
 ```bash
 cd SmartDine-AI
 ```
 
-## 3. Install Dependencies
+### 02. Install Dependencies
 
 ```bash
 npm install
 ```
 
-## 4. Configure Environment Variables
+### 03. Configure Environment
 
-Create your local environment file:
+Copy the example environment file.
 
 **Windows PowerShell:**
 
@@ -459,9 +453,19 @@ Create your local environment file:
 Copy-Item .env.example .env
 ```
 
-Open the `.env` file and configure your Gemini API key.
+### 04. Add Gemini API Key
 
-## 5. Start the Application
+Create or edit the `.env` file:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+Get your API key:
+
+https://aistudio.google.com/apikey
+
+### 05. Start Development Server
 
 ```bash
 npm run dev
@@ -473,57 +477,18 @@ Open your browser:
 http://localhost:3000
 ```
 
-The Express server provides both the Vite development frontend and backend API from the same port.
-
 ---
 
-# 🔐 Environment Configuration
+# 🚀 Available Commands
 
-SmartDine AI uses environment variables to manage sensitive configuration.
-
-Create a `.env` file in the project root.
-
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-### Obtain a Gemini API Key
-
-Visit:
-
-https://aistudio.google.com/apikey
-
-Generate an API key and add it to your local `.env` file.
-
-### Important Security Rules
-
-- Never hardcode API keys into source code.
-- Never upload `.env` to GitHub.
-- Keep `.env.example` free of real credentials.
-- Never share API keys publicly.
-- Configure environment variables separately in your hosting platform.
-
-The main restaurant interface and non-AI demonstration workflows can be explored without a Gemini API key. Gemini-powered features require a valid key.
-
----
-
-# ▶️ Running the Application
-
-### Development Mode
-
-```bash
-npm run dev
-```
-
-Starts the Express server with Vite development middleware.
-
-### TypeScript Validation
-
-```bash
-npm run lint
-```
-
-Runs the TypeScript compiler without generating output files.
+| Command | Description |
+|---|---|
+| `npm install` | Install dependencies |
+| `npm run dev` | Start development server |
+| `npm run lint` | Run TypeScript validation |
+| `npm run build` | Build frontend and backend |
+| `npm start` | Start production server |
+| `npm run clean` | Remove generated build directory (Unix-like shells) |
 
 ### Production Build
 
@@ -531,183 +496,99 @@ Runs the TypeScript compiler without generating output files.
 npm run build
 ```
 
-Builds the React frontend and bundles the Express server.
-
 ### Start Production Server
 
 ```bash
 npm start
 ```
 
-Starts the bundled production application.
-
-### Clean Build Directory
-
-```powershell
-Remove-Item -Recurse -Force .\dist
-```
-
-### Available Commands
-
-| Command | Description |
-|---|---|
-| `npm install` | Install dependencies |
-| `npm run dev` | Start development server |
-| `npm run lint` | TypeScript validation |
-| `npm run build` | Build production application |
-| `npm start` | Start production server |
-| `npm run clean` | Remove build output (Unix-like shells) |
+The production build generates the frontend assets and bundles the Express server into `dist/server.cjs`.
 
 ---
 
-# 🔌 API Documentation
+# 🔌 API Endpoints
 
-The Express backend exposes REST API endpoints for restaurant operations.
-
-All endpoints use the `/api` prefix.
-
-## 1. Application State
+The Express server exposes REST APIs under `/api`.
 
 | Method | Endpoint | Description |
 |---|---|---|
-| GET | `/api/state` | Retrieve current application state |
-
-## 2. Order Management
-
-| Method | Endpoint | Description |
-|---|---|---|
-| POST | `/api/orders` | Create an order |
-| PUT | `/api/orders/:id` | Update an order |
-| DELETE | `/api/orders/:id` | Delete an order |
+| GET | `/api/state` | Retrieve application state |
+| POST | `/api/orders` | Create order |
+| PUT | `/api/orders/:id` | Update order |
+| DELETE | `/api/orders/:id` | Delete order |
 | POST | `/api/orders/:id/status` | Update order status |
 | POST | `/api/orders/:id/assign-rider` | Assign delivery rider |
-
-## 3. Reservation Management
-
-| Method | Endpoint | Description |
-|---|---|---|
 | POST | `/api/reservations` | Create reservation |
 | PUT | `/api/reservations/:id` | Update reservation |
 | DELETE | `/api/reservations/:id` | Delete reservation |
 | POST | `/api/reservations/:id/cancel` | Cancel reservation |
-
-## 4. Menu Management
-
-| Method | Endpoint | Description |
-|---|---|---|
 | POST | `/api/menu` | Add menu item |
 | PUT | `/api/menu/:id` | Update menu item |
 | DELETE | `/api/menu/:id` | Delete menu item |
-
-## 5. Inventory Management
-
-| Method | Endpoint | Description |
-|---|---|---|
 | POST | `/api/inventory` | Add inventory item |
-| PUT | `/api/inventory/:id` | Update inventory item |
-| DELETE | `/api/inventory/:id` | Delete inventory item |
+| PUT | `/api/inventory/:id` | Update inventory |
+| DELETE | `/api/inventory/:id` | Delete inventory |
 | POST | `/api/inventory/update` | Update stock |
-| POST | `/api/recipes` | Request recipe or inventory assistance |
-
-## 6. Staff Management
-
-| Method | Endpoint | Description |
-|---|---|---|
+| POST | `/api/recipes` | Recipe assistance |
 | POST | `/api/staff` | Add staff member |
 | PUT | `/api/staff/:id` | Update staff member |
 | DELETE | `/api/staff/:id` | Delete staff member |
 | POST | `/api/staff/attendance` | Update attendance |
-
-## 7. Restaurant Service Operations
-
-| Method | Endpoint | Description |
-|---|---|---|
-| POST | `/api/waiter/notifications/:id/serve` | Mark waiter notification as served |
-| POST | `/api/bills/:id/pay` | Process demonstration bill payment action |
-| PUT | `/api/bills/:id` | Update bill |
-| DELETE | `/api/bills/:id` | Delete bill |
 | POST | `/api/feedback` | Submit customer feedback |
-| POST | `/api/admin/reset-day` | Reset demonstration data |
+| POST | `/api/ai/assistant` | AI assistant |
+| POST | `/api/ai/business-report` | AI business report |
+| POST | `/api/admin/reset-day` | Reset demo data |
 
-## 8. AI Endpoints
+Additional service endpoints:
 
-| Method | Endpoint | Description |
-|---|---|---|
-| POST | `/api/ai/assistant` | Ask the restaurant AI assistant |
-| POST | `/api/ai/business-report` | Generate AI business report |
-
-*Note: These endpoints describe the current Express API surface. Request schemas, authentication requirements, and response formats should be documented alongside the implementation as the API evolves.*
+```text
+POST   /api/waiter/notifications/:id/serve
+POST   /api/bills/:id/pay
+PUT    /api/bills/:id
+DELETE /api/bills/:id
+```
 
 ---
 
-# 🔄 Application Workflow
+# 🔄 Customer-to-Restaurant Workflow
 
-SmartDine AI connects customer experiences with restaurant operational activities.
-
-```text
-             CUSTOMER PORTAL
-                    |
-                    v
-           Browse Restaurants
-                    |
-                    v
-             Explore Menu
-                    |
-                    v
-             Create Order
-                    |
-                    v
-          RESTAURANT MANAGEMENT
-                    |
-          +---------+---------+
-          |         |         |
-          v         v         v
-        Orders   Kitchen   Reservations
-          |         |         |
-          v         v         v
-       Processing Preparation Table Service
-          |         |         |
-          +---------+---------+
-                    |
-                    v
-             Order Completion
-                    |
-                    v
-             Customer Feedback
-                    |
-                    v
-               AI Analysis
-                    |
-                    v
-            Business Insights
+```mermaid
+flowchart TD
+    A["Customer Opens SmartDine AI"] --> B["Browse Restaurants"]
+    B --> C["Explore Digital Menu"]
+    C --> D["Create Order"]
+    D --> E["Restaurant Receives Order"]
+    E --> F["Kitchen Preparation"]
+    F --> G["Order Status Update"]
+    G --> H["Order Completion"]
+    H --> I["Customer Feedback"]
+    I --> J["AI-Assisted Analysis"]
+    J --> K["Restaurant Business Insights"]
 ```
 
 ---
 
 # 🗄️ Data Management
 
-### Current Implementation
+### Current Prototype
 
-The current prototype uses in-memory application state initialized by the Express server.
+The current application uses in-memory server state.
 
 This means:
 
-- Data is maintained in server memory.
-- Data is not permanently stored in a database.
-- Restarting the server resets demonstration data.
+- Application data is maintained in server memory.
+- Data resets when the server restarts.
+- No persistent database is configured.
 - Multiple server instances do not share application state.
-- It is intended for demonstrations and local development.
 
 ### Planned Database Integration
 
-A future development milestone will introduce PostgreSQL for persistent storage.
-
-Planned data entities include:
+Future PostgreSQL entities:
 
 - Users
 - Customers
 - Restaurants
-- Restaurant Branches
+- Branches
 - Menu Categories
 - Menu Items
 - Orders
@@ -725,147 +606,94 @@ Planned data entities include:
 
 ---
 
-# 🔒 Security Considerations
+# 🔐 Security
 
-Security is an important part of the SmartDine AI development roadmap.
-
-Before using this application with real customers or businesses, implement:
+Security considerations for future production deployment:
 
 - Secure authentication.
 - Role-based access control.
 - Password hashing.
-- Server-side request validation.
-- API rate limiting.
-- Secure session management.
-- Database access controls.
-- Input sanitization.
+- API validation.
+- Rate limiting.
+- Secure environment variables.
 - CORS restrictions.
 - HTTPS.
-- Secure environment variable management.
-- Audit logging.
-- Backup and recovery procedures.
+- Database security.
+- Audit logs.
+- Backup and recovery.
 
-**Current limitation:** This version is a demonstration-oriented prototype and does not yet provide a complete production-grade authentication, authorization, or persistent database layer.
+**Important:** The current version is a prototype intended for development and demonstration. It is not yet ready to handle real customer or business data.
 
-Do not use the current in-memory prototype to process real customer or business data.
-
----
-
-# 🛣️ Future Roadmap
-
-The following capabilities represent planned development enhancements, not claims of completed functionality.
-
-## Phase 1 – Foundation & Platform Development
-- [x] React and TypeScript frontend foundation.
-- [x] Express backend.
-- [x] Restaurant and customer interfaces.
-- [x] Basic restaurant operational workflows.
-- [x] Gemini AI integration.
-
-## Phase 2 – Database & Authentication
-- [ ] PostgreSQL integration.
-- [ ] Database schema design.
-- [ ] SQLAlchemy or an equivalent persistence layer if migrating to Python.
-- [ ] Secure authentication.
-- [ ] Role-based access control.
-- [ ] Customer and staff account management.
-
-## Phase 3 – Customer Experience
-- [ ] Enhanced restaurant discovery.
-- [ ] Advanced food recommendations.
-- [ ] Real-time order tracking.
-- [ ] Advanced reservation availability.
-- [ ] Customer personalization.
-- [ ] Loyalty and reward improvements.
-
-## Phase 4 – Restaurant Operations
-- [ ] Advanced kitchen display system.
-- [ ] Multi-branch management.
-- [ ] Advanced inventory forecasting.
-- [ ] Supplier management.
-- [ ] Advanced staff scheduling.
-- [ ] Operational automation.
-
-## Phase 5 – AI & Business Intelligence
-- [ ] AI food recommendation engine.
-- [ ] AI sales forecasting.
-- [ ] AI demand prediction.
-- [ ] Customer segmentation.
-- [ ] AI review sentiment analysis.
-- [ ] Inventory forecasting.
-- [ ] Advanced business intelligence.
-
-## Phase 6 – Automation & Notifications
-- [ ] Pabbly Connect integration.
-- [ ] WhatsApp Cloud API.
-- [ ] Automated order notifications.
-- [ ] Reservation reminders.
-- [ ] Promotional campaigns.
-- [ ] Email automation.
-
-## Phase 7 – Deployment & Production
-- [ ] GitHub CI/CD workflow.
-- [ ] Vercel frontend deployment.
-- [ ] Backend hosting.
-- [ ] Managed PostgreSQL.
-- [ ] Production monitoring.
-- [ ] Automated testing.
-- [ ] Performance optimization.
-- [ ] Security testing.
+Never commit `.env` or expose your Gemini API key.
 
 ---
 
-# 🐛 Troubleshooting
+# 🛣️ Roadmap
 
-### 1. Node.js or npm not recognized
+The following roadmap separates existing functionality from planned enhancements.
 
-Install Node.js and restart the terminal.
+### Platform Foundation
 
-```bash
-node --version
-npm --version
-```
+- [x] React + TypeScript frontend
+- [x] Express backend
+- [x] Customer portal
+- [x] Restaurant operations interface
+- [x] Order management workflows
+- [x] Reservation workflows
+- [x] Menu management
+- [x] Inventory workflows
+- [x] Staff management
+- [x] Gemini AI integration
 
-### 2. Port 3000 already in use
+### Database & Authentication
 
-Stop the application currently using port 3000 before starting SmartDine AI.
+- [ ] PostgreSQL integration
+- [ ] Persistent database storage
+- [ ] Secure authentication
+- [ ] Role-based access control
+- [ ] User and staff account management
 
-### 3. AI assistant not responding
+### Advanced Restaurant Operations
 
-Check your `.env` file:
+- [ ] Advanced kitchen display system
+- [ ] Multi-branch management
+- [ ] Advanced reservation availability
+- [ ] Supplier management
+- [ ] Advanced inventory forecasting
 
-```env
-GEMINI_API_KEY=your_valid_api_key
-```
+### AI & Analytics
 
-Restart the application after updating environment variables.
+- [ ] AI food recommendation engine
+- [ ] AI sales forecasting
+- [ ] AI demand prediction
+- [ ] Customer segmentation
+- [ ] AI sentiment analysis
+- [ ] Advanced business intelligence
 
-### 4. Dependencies missing
+### Automation
 
-Reinstall dependencies:
+- [ ] Pabbly Connect integration
+- [ ] WhatsApp Cloud API
+- [ ] Automated order notifications
+- [ ] Reservation reminders
+- [ ] Email automation
+- [ ] Marketing campaigns
 
-```bash
-npm install
-```
+### Deployment
 
-### 5. Build errors
-
-Run:
-
-```bash
-npm run lint
-npm run build
-```
-
-Review the terminal output to identify TypeScript or build errors.
+- [ ] GitHub CI/CD
+- [ ] Vercel frontend deployment
+- [ ] Backend cloud hosting
+- [ ] Managed PostgreSQL
+- [ ] Automated testing
+- [ ] Production monitoring
+- [ ] Security testing
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
-
-If you want to contribute:
+Contributions, ideas, suggestions, and improvements are welcome.
 
 1. Fork the repository.
 2. Create a feature branch.
@@ -874,14 +702,12 @@ If you want to contribute:
 5. Test the application.
 6. Submit a pull request.
 
-Example:
-
 ```bash
 git checkout -b feature/new-feature
 
 git add .
 
-git commit -m "feat: add new restaurant feature"
+git commit -m "feat: add new feature"
 
 git push origin feature/new-feature
 ```
@@ -890,22 +716,21 @@ git push origin feature/new-feature
 
 # 📄 License
 
-No license has been selected for this project yet.
-
-A suitable open-source license can be added when the repository is ready for public distribution.
+No license has been selected yet. A suitable license will be added when the project is ready for public distribution.
 
 ---
 
-# 👨‍💻 Project
+<div align="center">
 
-**SmartDine AI – Intelligent Restaurant Management Platform**
+## 🧡 SmartDine AI
 
-Built with modern web technologies, artificial intelligence, and a vision to transform restaurant management.
+### Smart Restaurants. Smarter Operations. Better Experiences.
 
-<p align="center">
-  <strong>Smart Restaurants. Smarter Operations. Better Experiences. 🍽️</strong>
-</p>
+**Built with React, TypeScript, Express and Google Gemini AI.**
 
-<p align="center">
-  If you find this project interesting, consider giving the repository a ⭐ on GitHub.
-</p>
+<img src="https://img.shields.io/badge/FOOD-EXPERIENCE-FF6B00?style=for-the-badge&labelColor=080B10"/>
+<img src="https://img.shields.io/badge/POWERED_BY-AI-8E75B2?style=for-the-badge&labelColor=080B10"/>
+
+**If you like this project, consider giving it a ⭐**
+
+</div>
