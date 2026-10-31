@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+*.tsbuildinfo
+.DS_Store
+*.log
+.env*
+!.env.example

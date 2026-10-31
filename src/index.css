@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(51, 65, 85, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(71, 85, 105, 0.7);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Dynamic System Interface Themes */
+
+/* CUSTOMER PORTAL LIGHT THEME */
+.customer-theme-light {
+  background-color: #f8fafc !important;
+  color: #1e293b !important;
+}
+
+.customer-theme-light .bg-[#070b13],
+.customer-theme-light .bg-[#090d16],
+.customer-theme-light .bg-slate-900,
+.customer-theme-light .bg-slate-950,
+.customer-theme-light .bg-[#04060b] {
+  background-color: #ffffff !important;
+}
+
+.customer-theme-light .bg-slate-950\/40,
+.customer-theme-light .bg-slate-900\/40,
+.customer-theme-light .bg-slate-950\/85 {
+  background-color: rgba(241, 245, 249, 0.9) !important;
+}
+
+.customer-theme-light .text-white,
+.customer-theme-light .text-slate-100,
+.customer-theme-light .text-slate-200,
+.customer-theme-light .text-slate-300 {
+  color: #0f172a !important;
+}
+
+.customer-theme-light .text-slate-400,
+.customer-theme-light .text-slate-500 {
+  color: #475569 !important;
+}
+
+.customer-theme-light .border-slate-800,
+.customer-theme-light .border-slate-800\/80,
+.customer-theme-light .border-slate-900 {
+  border-color: #e2e8f0 !important;
+}
+
+.customer-theme-light input,
+.customer-theme-light select,
+.customer-theme-light textarea {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+/* ADMIN THEME: CLEAN MINIMALIST LIGHT MODE */
+.admin-theme-light {
+  background-color: #f8fafc !important;
+  color: #1e293b !important;
+}
+
+.admin-theme-light .bg-[#070b13],
+.admin-theme-light .bg-[#090d16],
+.admin-theme-light .bg-slate-900,
+.admin-theme-light .bg-slate-950 {
+  background-color: #ffffff !important;
+}
+
+.admin-theme-light .bg-slate-950\/40,
+.admin-theme-light .bg-slate-900\/40,
+.admin-theme-light .bg-[#04060b],
+.admin-theme-light .bg-slate-850 {
+  background-color: #f1f5f9 !important;
+}
+
+.admin-theme-light .text-white,
+.admin-theme-light .text-slate-100,
+.admin-theme-light .text-slate-200,
+.admin-theme-light .text-slate-300 {
+  color: #0f172a !important;
+}
+
+.admin-theme-light .text-slate-400,
+.admin-theme-light .text-slate-500 {
+  color: #475569 !important;
+}
+
+.admin-theme-light .border-slate-800,
+.admin-theme-light .border-slate-800\/80,
+.admin-theme-light .border-slate-900,
+.admin-theme-light .border-slate-850 {
+  border-color: #e2e8f0 !important;
+}
+
+.admin-theme-light input,
+.admin-theme-light select,
+.admin-theme-light textarea {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+/* ADMIN THEME: PURE OLED BLACK */
+.admin-theme-oled {
+  background-color: #000000 !important;
+  color: #f1f5f9 !important;
+}
+
+.admin-theme-oled .bg-[#070b13],
+.admin-theme-oled .bg-[#090d16],
+.admin-theme-oled .bg-slate-900,
+.admin-theme-oled .bg-slate-950,
+.admin-theme-oled .bg-[#04060b] {
+  background-color: #000000 !important;
+}
+
+.admin-theme-oled .border-slate-800,
+.admin-theme-oled .border-slate-900,
+.admin-theme-oled .border-slate-850 {
+  border-color: #1e293b !important;
+}
+

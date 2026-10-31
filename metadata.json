@@ -1,0 +1,6 @@
+{
+  "name": "SmartDine AI",
+  "description": "Intelligent Restaurant Management Platform with AI Assistant, Table Reservations, Kitchen & Waiter Management, Billing, Marketing Automation, and Predictive Analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
