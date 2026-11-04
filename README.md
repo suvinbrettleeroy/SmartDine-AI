@@ -1,310 +1,467 @@
-# SmartDine AI
+# 🍽️ SmartDine AI
 
-SmartDine AI is a restaurant management platform built with React, TypeScript, Vite, Tailwind CSS, Express, and the Google Gemini API. It provides separate customer and restaurant-operations experiences in one application.
+### Intelligent Restaurant Management & AI-Powered Food Ordering Platform
 
-The project is intended for local development, demonstrations, and prototype restaurant workflows. Application data is held in server memory and is reset when the server restarts; it is not a production database-backed system yet.
+<p align="center">
+  <strong>Discover Better. Dine Smarter. Manage Intelligently.</strong>
+</p>
 
-## Features
+<p align="center">
+  <a href="https://smartdine-ai-hpi1.onrender.com">
+    <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Explore_SmartDine_AI-FF6B00?style=for-the-badge" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/suvinbrettleeroy/SmartDine-AI">
+    <img src="https://img.shields.io/badge/GITHUB-Source_Code-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
+</p>
 
-### Customer portal
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-4-000000?style=flat-square&logo=express"/>
+  <img src="https://img.shields.io/badge/AI-Google_Gemini-8E75B2?style=flat-square&logo=googlegemini"/>
+  <img src="https://img.shields.io/badge/Cloud-Render-46E3B7?style=flat-square&logo=render"/>
+</p>
 
-- Browse the digital restaurant experience and menu.
-- View restaurants and menu items.
-- Create and track orders.
-- Choose dine-in, pickup, or delivery ordering flows.
-- Make and cancel table reservations.
-- View favorites, loyalty rewards, wallet, saved addresses, and support areas.
-- Submit feedback and receive AI-assisted responses.
-- Use customer settings and account preferences.
+---
 
-### Restaurant operations portal
+## ✨ Overview
 
-- Dashboard with restaurant activity and operational metrics.
-- Order management and order-status updates.
-- Kitchen and chef workflow for queued, cooking, and completed orders.
-- Digital waiter notifications and table-service actions.
-- Billing and payment workflow.
-- Delivery partner workflow and rider assignment.
-- Menu creation, editing, and deletion.
-- Reservation management.
-- Inventory management, stock alerts, waste tracking, and recipe assistance.
-- Staff management, attendance, shifts, and performance information.
-- Reports and analytics.
-- AI assistant for operational questions.
-- AI-generated business reports.
-- Restaurant and system settings.
-- Reset-day action for demonstration data.
+**SmartDine AI** is an AI-powered restaurant management and food ordering platform that connects customer dining experiences with restaurant business operations through a unified digital ecosystem.
 
-## Technology stack
+Built using modern full-stack technologies and Google Gemini AI, it brings restaurant discovery, online ordering, reservations, kitchen operations, inventory management, and business analytics into one application.
 
-- **Frontend:** React 19, TypeScript, Vite
-- **Styling:** Tailwind CSS 4
-- **Icons and UI:** Lucide React, Motion
-- **Charts:** Recharts
-- **Backend:** Express 4 with TypeScript executed by `tsx`
-- **AI:** Google Gemini through `@google/genai`
-- **Build:** Vite and esbuild
+| 🛍️ Customer Experience | 🏪 Restaurant Intelligence |
+|:---|:---|
+| Restaurant Discovery | Business Dashboard |
+| Food & Menu Exploration | Order Management |
+| Online Food Ordering | Kitchen Operations |
+| Table Reservations | Menu Management |
+| AI Food Assistant | Inventory & Staff |
+| Customer Management | Analytics & AI Assistant |
 
-## Requirements
+---
 
-Install the following before starting:
+## 🚀 Core Features
+
+### 🛍️ Customer Portal
+
+- Restaurant discovery and digital menu browsing
+- Food categories, search and restaurant exploration
+- Dish details and favorites
+- Shopping cart and order creation
+- Dine-in, pickup and delivery ordering workflows
+- Order history and status tracking
+- Table reservations and cancellation
+- Loyalty rewards and wallet interface
+- Saved addresses and customer preferences
+- Feedback and AI-assisted responses
+- Customer support and settings
+
+### 🏪 Restaurant Management Portal
+
+- Centralized business dashboard and operational metrics
+- Order management and status updates
+- Kitchen and chef workflow management
+- Digital waiter notifications and table-service actions
+- Billing and payment workflow
+- Delivery partner management and rider assignment
+- Menu creation, editing and deletion
+- Reservation management
+- Inventory, stock alerts and waste tracking
+- AI-assisted recipe guidance
+- Staff, attendance and shift management
+- Sales reports and business analytics
+- AI-powered business assistant
+- AI-generated business reports
+- Restaurant and system configuration
+- Demonstration data reset functionality
+
+### 🤖 AI & Intelligence
+
+- Google Gemini API integration
+- Conversational restaurant assistance
+- Customer feedback and AI-assisted responses
+- AI-powered recipe and inventory assistance
+- Business report generation
+- Operational question answering
+
+### ⚡ Automation & Integrations
+
+- Gemini API integration
+- Planned Pabbly workflow automation
+- Planned WhatsApp notifications
+- Planned email automation
+
+---
+
+## 🧠 AI & Machine Learning Roadmap
+
+| Intelligence Module | Application |
+|---|---|
+| Food Recommendation | Personalized food discovery |
+| Customer Analytics | Customer behavior analysis |
+| Demand Forecasting | Restaurant demand prediction |
+| Sales Prediction | Business forecasting |
+| Inventory Intelligence | Stock optimization |
+| Customer Segmentation | Customer insights |
+
+*Advanced machine learning capabilities are planned enhancements and are not currently deployed models.*
+
+---
+
+## 🏗️ System Architecture
+
+SmartDine AI uses a combined full-stack architecture in which the Express server handles backend APIs and serves the React application.
+
+```mermaid
+flowchart TB
+    U["SmartDine AI Users"]
+
+    U --> C["Customer Portal"]
+    U --> R["Restaurant Portal"]
+
+    C --> F["React 19 + TypeScript"]
+    R --> F
+
+    F --> API["Express 4 Backend"]
+
+    API --> B["Business Logic"]
+    B --> AI["Google Gemini API"]
+    B --> D["In-Memory Application State"]
+
+    F --> V["Vite + Tailwind CSS"]
+
+    API --> HOST["Render Web Service"]
+    V --> HOST
+```
+
+### Application Workflow
+
+```mermaid
+flowchart LR
+    A["Food Discovery"] --> B["Cart & Reservation"]
+    B --> C["Backend API"]
+    C --> D["Restaurant Operations"]
+    D --> E["Kitchen Processing"]
+    E --> F["Order Updates"]
+    F --> G["Customer Experience"]
+```
+
+---
+
+## 🧰 Technology Stack
+
+| Layer | Technologies |
+|---|---|
+| Frontend | React 19, TypeScript 5 |
+| Build Tool | Vite 6 |
+| Styling | Tailwind CSS 4 |
+| UI & Animation | Lucide React, Motion |
+| Visualization | Recharts, Chart.js |
+| Backend | Node.js, Express 4 |
+| AI Integration | Google Gemini, `@google/genai` |
+| Development | VS Code, npm, Git |
+| Bundling | Vite, esbuild |
+| Version Control | GitHub |
+| Deployment | Render |
+
+---
+
+## 🔌 Backend API
+
+The Express backend exposes REST API endpoints for restaurant operations.
+
+### State & Orders
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/state` | Retrieve application state |
+| POST | `/api/orders` | Create an order |
+| PUT | `/api/orders/:id` | Update an order |
+| DELETE | `/api/orders/:id` | Delete an order |
+| POST | `/api/orders/:id/status` | Update order status |
+| POST | `/api/orders/:id/assign-rider` | Assign delivery rider |
+
+### Reservations
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/reservations` | Create reservation |
+| PUT | `/api/reservations/:id` | Update reservation |
+| DELETE | `/api/reservations/:id` | Delete reservation |
+| POST | `/api/reservations/:id/cancel` | Cancel reservation |
+
+### Menu, Inventory & Staff
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/menu` | Add menu item |
+| PUT | `/api/menu/:id` | Update menu item |
+| DELETE | `/api/menu/:id` | Delete menu item |
+| POST | `/api/inventory` | Add inventory item |
+| PUT | `/api/inventory/:id` | Update inventory |
+| DELETE | `/api/inventory/:id` | Delete inventory item |
+| POST | `/api/inventory/update` | Update stock |
+| POST | `/api/recipes` | Generate recipe assistance |
+| POST | `/api/staff` | Add staff member |
+| PUT | `/api/staff/:id` | Update staff member |
+| DELETE | `/api/staff/:id` | Delete staff member |
+| POST | `/api/staff/attendance` | Update attendance |
+
+### Restaurant Operations
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/waiter/notifications/:id/serve` | Mark notification as served |
+| POST | `/api/bills/:id/pay` | Process bill payment workflow |
+| PUT | `/api/bills/:id` | Update bill |
+| DELETE | `/api/bills/:id` | Delete bill |
+| POST | `/api/feedback` | Submit customer feedback |
+| POST | `/api/admin/reset-day` | Reset demonstration data |
+
+### AI Services
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/ai/assistant` | AI restaurant assistance |
+| POST | `/api/ai/business-report` | Generate AI business report |
+
+*Endpoint reference based on the current project documentation.*
+
+---
+
+## 📁 Project Structure
+
+```text
+SmartDine-AI/
+│
+├── assets/
+│
+├── src/
+│   ├── components/
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   ├── menu_data.ts
+│   └── types.ts
+│
+├── server.ts
+│
+├── .env.example
+├── .gitignore
+├── index.html
+├── metadata.json
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
 
 - Node.js 18 or newer
 - npm
-- A Google Gemini API key for AI assistant, feedback, recipe, and business-report features
+- Git
+- Google Gemini API key for AI-powered features
 
-Check your installed versions:
+### 1. Clone Repository
 
 ```powershell
-node --version
-npm --version
+git clone https://github.com/suvinbrettleeroy/SmartDine-AI.git
+
+cd SmartDine-AI
 ```
 
-## Installation
-
-Open PowerShell and run:
+### 2. Install Dependencies
 
 ```powershell
-cd "C:\Users\ASUS\Desktop\Suvin\Freelancing\Project\Restaurant Management System\smartdine-ai"
 npm install
 ```
 
-## Environment configuration
+### 3. Configure Environment
 
-The server reads environment variables using `dotenv` from a local `.env` file.
-
-1. Copy the example file:
-
-   ```powershell
-   Copy-Item .env.example .env
-   ```
-
-2. Open `.env`:
-
-   ```powershell
-   notepad .env
-   ```
-
-3. Replace the placeholder with your own Gemini API key:
-
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
-
-`GEMINI_API_KEY` is required for Gemini-powered features. The main restaurant UI and non-AI demo workflows can still be explored without a key, but AI requests will not work.
-
-Never commit `.env` or share your API key. The repository ignores `.env` files while keeping `.env.example` available as a template.
-
-## Run in development mode
-
-Start the full application with:
+Copy the example environment file:
 
 ```powershell
-npm run dev
+Copy-Item .env.example .env
 ```
 
-The development server starts on:
-
-```text
-http://localhost:3000
-```
-
-Open that URL in a browser. The server provides the Express API and Vite development frontend from the same port.
-
-Press `Ctrl + C` in the terminal to stop the server.
-
-## Production build and start
-
-Create a production build:
+Open `.env`:
 
 ```powershell
-npm run build
+notepad .env
 ```
 
-This command:
-
-1. Builds the React frontend with Vite.
-2. Bundles `server.ts` into `dist/server.cjs`.
-
-Start the built application:
-
-```powershell
-npm start
-```
-
-The production server is available at:
-
-```text
-http://localhost:3000
-```
-
-Set `GEMINI_API_KEY` in `.env` before starting if production AI features are needed.
-
-## Available npm scripts
-
-| Command | Description |
-| --- | --- |
-| `npm install` | Install project dependencies |
-| `npm run dev` | Run the Express server with Vite development middleware |
-| `npm run build` | Build the frontend and bundle the production server |
-| `npm start` | Start the bundled production server |
-| `npm run lint` | Run the TypeScript compiler without emitting files |
-| `npm run clean` | Remove the `dist` directory; this script uses `rm -rf` and is intended for Unix-like shells |
-
-On Windows PowerShell, remove the generated build directory with:
-
-```powershell
-Remove-Item -Recurse -Force .\dist
-```
-
-## Application API
-
-The Express server exposes the following main endpoint groups:
-
-### State and data
-
-- `GET /api/state` - Retrieve current application state.
-- `POST /api/orders` - Create an order.
-- `PUT /api/orders/:id` - Update an order.
-- `DELETE /api/orders/:id` - Delete an order.
-- `POST /api/orders/:id/status` - Update order status.
-- `POST /api/orders/:id/assign-rider` - Assign a delivery rider.
-- `POST /api/reservations` - Create a reservation.
-- `PUT /api/reservations/:id` - Update a reservation.
-- `DELETE /api/reservations/:id` - Delete a reservation.
-- `POST /api/reservations/:id/cancel` - Cancel a reservation.
-
-### Menu, inventory, and staff
-
-- `POST /api/menu` - Add a menu item.
-- `PUT /api/menu/:id` - Update a menu item.
-- `DELETE /api/menu/:id` - Delete a menu item.
-- `POST /api/inventory` - Add an inventory item.
-- `PUT /api/inventory/:id` - Update an inventory item.
-- `DELETE /api/inventory/:id` - Delete an inventory item.
-- `POST /api/inventory/update` - Update stock.
-- `POST /api/recipes` - Generate recipe or inventory assistance.
-- `POST /api/staff` - Add a staff member.
-- `PUT /api/staff/:id` - Update a staff member.
-- `DELETE /api/staff/:id` - Delete a staff member.
-- `POST /api/staff/attendance` - Update staff attendance.
-
-### Service operations
-
-- `POST /api/waiter/notifications/:id/serve` - Mark a waiter notification as served.
-- `POST /api/bills/:id/pay` - Pay a bill.
-- `PUT /api/bills/:id` - Update a bill.
-- `DELETE /api/bills/:id` - Delete a bill.
-- `POST /api/feedback` - Submit feedback and request AI sentiment handling.
-- `POST /api/admin/reset-day` - Reset demonstration day data.
-
-### AI
-
-- `POST /api/ai/assistant` - Ask the restaurant AI assistant a question.
-- `POST /api/ai/business-report` - Generate a business report from current operational data.
-
-The frontend calls these endpoints directly using relative `/api/...` URLs, so no separate API URL is required for local development.
-
-## Project structure
-
-```text
-smartdine-ai/
-├── assets/                 # Static image and media assets
-├── src/
-│   ├── components/         # Customer and restaurant UI components
-│   ├── App.tsx             # Application state and primary routing logic
-│   ├── index.css           # Global styles and Tailwind entry styles
-│   ├── main.tsx            # React application entry point
-│   ├── menu_data.ts        # Initial menu data
-│   └── types.ts            # Shared TypeScript domain types
-├── .env.example            # Environment variable template
-├── index.html              # HTML entry document
-├── package.json            # Scripts and dependencies
-├── server.ts               # Express API and Vite server
-├── tsconfig.json           # TypeScript configuration
-└── vite.config.ts          # Vite and Tailwind configuration
-```
-
-## Development workflow
-
-1. Install dependencies with `npm install`.
-2. Create `.env` from `.env.example`.
-3. Add a valid `GEMINI_API_KEY`.
-4. Start the server with `npm run dev`.
-5. Make changes in `src/` or `server.ts`.
-6. Run type checking before sharing changes:
-
-   ```powershell
-   npm run lint
-   ```
-
-7. Verify the production bundle:
-
-   ```powershell
-   npm run build
-   ```
-
-## Data and persistence limitations
-
-This version uses in-memory state initialized by `server.ts`. As a result:
-
-- Data is not persisted to a database.
-- Restarting the server restores the initial demo state.
-- Multiple server instances do not share data.
-- The application should not be used with real customer, payment, or business data without adding authentication, authorization, persistence, validation, and production security controls.
-
-## Troubleshooting
-
-### `npm` or `node` is not recognized
-
-Install Node.js from the official Node.js website, restart PowerShell, and verify:
-
-```powershell
-node --version
-npm --version
-```
-
-### Port 3000 is already in use
-
-Stop the process using port 3000, or close the other application before running SmartDine AI. The current server configuration uses port 3000 in `server.ts`.
-
-### AI requests fail
-
-Check that `.env` exists in the project root and contains a valid key:
+Configure your Gemini API key:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-After changing `.env`, restart `npm run dev`.
-
-### Dependencies are missing
-
-Remove and reinstall dependencies:
+### 4. Run Development Server
 
 ```powershell
-Remove-Item -Recurse -Force .\node_modules
-npm install
+npm run dev
 ```
 
-### The browser shows an empty page
+Open the application:
 
-Check the terminal for TypeScript or runtime errors, then run:
+**http://localhost:3000**
+
+The Express server provides the backend API and Vite development frontend from the same port.
+
+### 5. Production Build
 
 ```powershell
-npm run lint
 npm run build
 ```
 
-## Security notes
+### 6. Start Production Server
 
-- Keep Gemini API keys in `.env`, never in source code.
-- Do not commit `.env` or paste API keys into issues, screenshots, or chat messages.
-- This project currently has demo-level authentication and in-memory state.
-- Add server-side authentication and role-based authorization before deploying publicly.
-- Add a real database and server-side validation before handling production data.
-- Use HTTPS and secure secret management in production.
+```powershell
+npm start
+```
 
-## License
+Open:
 
-No license has been specified for this project yet. Add a license before distributing or publishing it for reuse.
+**http://localhost:3000**
+
+---
+
+## 📜 Available Commands
+
+| Command | Description |
+|---|---|
+| `npm install` | Install dependencies |
+| `npm run dev` | Start development server |
+| `npm run lint` | Run TypeScript validation |
+| `npm run build` | Build frontend and production backend |
+| `npm start` | Start production application |
+| `npm run clean` | Remove production build directory |
+
+---
+
+## ☁️ Deployment
+
+<p align="center">
+  <img src="https://img.shields.io/badge/GitHub-Source_Code-181717?style=for-the-badge&logo=github"/>
+  &nbsp; → &nbsp;
+  <img src="https://img.shields.io/badge/Render-Cloud_Deployment-46E3B7?style=for-the-badge&logo=render"/>
+</p>
+
+| Configuration | Details |
+|---|---|
+| Hosting Platform | Render |
+| Service Type | Web Service |
+| Runtime | Node.js |
+| Frontend | React + Vite |
+| Backend | Express |
+| AI Provider | Google Gemini |
+| Deployment Source | GitHub |
+
+### 🚀 Live Application
+
+<p align="center">
+  <a href="https://smartdine-ai-hpi1.onrender.com">
+    <img src="https://img.shields.io/badge/OPEN_SMARTDINE_AI-LIVE_APPLICATION-FF6B00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch SmartDine AI"/>
+  </a>
+</p>
+
+**Production URL:** https://smartdine-ai-hpi1.onrender.com
+
+---
+
+## 📊 Development Status
+
+| Module | Status |
+|---|---|
+| Customer Portal | Implemented |
+| Restaurant Operations Portal | Implemented |
+| React Frontend | Implemented |
+| Express Backend | Implemented |
+| Order & Reservation APIs | Implemented |
+| Menu & Inventory APIs | Implemented |
+| Gemini AI Integration | Integrated |
+| AI Business Reports | Integrated |
+| Render Deployment | Live |
+| PostgreSQL Integration | Planned |
+| Authentication & RBAC | Planned |
+| Advanced ML Models | Planned |
+| WhatsApp Automation | Planned |
+| Automated Testing | Planned |
+
+---
+
+## 🗄️ Data & Persistence
+
+The current application uses **in-memory server state** for its demonstration workflows.
+
+- Application data is not stored in a persistent database.
+- Server restarts restore the initial demonstration state.
+- Multiple server instances do not share in-memory data.
+- PostgreSQL integration is planned.
+
+This version is intended for development, demonstrations and prototype workflows. It should not be used for real customer, payment or business records without implementing persistent storage and appropriate security controls.
+
+---
+
+## 🔐 Security
+
+- Environment-based configuration
+- Server-side Gemini API credentials
+- `.env` excluded from source control
+- `.env.example` provided for configuration
+- Planned secure authentication and authorization
+- Planned API validation and rate limiting
+
+**Never commit or expose your Gemini API key.**
+
+---
+
+## 🔮 Development Roadmap
+
+- [x] Customer and restaurant portal foundation
+- [x] Full-stack application implementation
+- [x] Gemini AI integration
+- [x] Initial Render deployment
+- [ ] PostgreSQL database integration
+- [ ] Secure authentication and role management
+- [ ] Advanced AI recommendations
+- [ ] Predictive restaurant analytics
+- [ ] Pabbly and WhatsApp automation
+- [ ] Automated testing and monitoring
+- [ ] Production scalability improvements
+
+---
+
+## 👨‍💻 Developer
+
+**Suvin Brettlee Roy B.**
+
+B.Tech — Computer Science & Engineering  
+Artificial Intelligence & Machine Learning
+
+[![GitHub](https://img.shields.io/badge/GitHub-suvinbrettleeroy-181717?style=for-the-badge&logo=github)](https://github.com/suvinbrettleeroy)
+
+**Interests:** AI/ML · Generative AI · Full-Stack Development · Data Science · AI Agents · Automation
+
+---
+
+<p align="center">
+  <strong>⭐ Star this repository if you find it interesting!</strong>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/SMARTDINE_AI-INTELLIGENCE_MEETS_HOSPITALITY-FF6B00?style=for-the-badge"/>
+  <br/><br/>
+  <sub>Built with ❤️ using React, TypeScript, Node.js, Express & Google Gemini.</sub>
+  <br/>
+  <sub>© 2026 SmartDine AI · Developed by Suvin Brettlee Roy B.</sub>
+</p>
